@@ -1,0 +1,15 @@
+#!/bin/sh
+
+#parallel version
+
+NUMPROC=10
+MAXDOCS=1000
+
+#each page has 10 entries to parse through
+#so for 1000 data download 100 pages
+
+for i in $(seq 0 10 $MAXDOCS)
+do
+    curl "http://ipaidabribe.com/reports/paid?page=$i#gsc.tab=0" > bribe$i.html &
+done
+echo "Done!"
