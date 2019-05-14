@@ -13,8 +13,8 @@ data.txt - file contains 1000 observations with 8 predictors including
 
 Files include:
 
-data.txt - text file containing data as described above           
-parse.py - Python file using BeautifulSoup to read html and write needed information to text file data.txt
-scrape - Shell Script to download html from website using parallel programming
-webdocs - folder containing all html files download as of May 14, 2019
+data.txt - text file containing data as described above            
+parse.py - Python file using BeautifulSoup to read html and write needed information to text file data.txt. 
+scrape - Shell Script to download html from website using parallel programming. 
+webdocs - folder containing all html files download as of May 14, 2019. 
 Statistical_Analysis - folder containing R software (Incomplete as of May 14, 2019)
